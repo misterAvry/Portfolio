@@ -1,18 +1,70 @@
 header {
     background-color: #006E61;
-    border: 2px solid #512800;
+    border: .125rem solid #512800;
     max-height: 3.75rem;
     width: 100%;
     display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+
 }
+
 .nameplate {
-    border: 2px solid #512800;
+    border: .125rem solid #512800;
     color: #FBBB18;
+    max-width: 12.8125rem;
+    max-height: 2.5rem;
+    margin: .625rem 1.875rem;
+    padding: .125rem .625rem;
+    border-radius: .5rem;
+    font-weight: bold;
+    text-shadow: -.0225rem -.0825rem 0px rgba(0, 0, 0, .75);
 }
+
 .navigation {
     display: inline-flex;
-    border: 2px solid #512800;
-    color: #FBBB18;
+    border: .125rem solid #512800;
     list-style: none;
-    justify-content: center;
+    margin-right: 15rem;
+    padding: .4rem;
+    font-size: .8rem;
+    border-radius: .5rem;
+    
+}
+
+nav a {
+    color: #FBBB18;
+    font-family: sans-serif;
+    padding: 1.5rem;
+    font-weight: bold;
+    text-shadow: -.0225rem -.0825rem 0px rgba(0, 0, 0, .75);
+}
+
+
+body {
+    background-color: #DFE0DF;
+}
+
+footer {
+    background-color: #006E61;
+    border: .125rem solid #512800;
+    max-height: 3.75rem;
+    width: 100%;
+    display: inline-flex;
+    justify-content: right;
+    align-items: center;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 0;
+}
+
+footer h3 {
+    margin-right: 15rem;
+    color: #512800;
+}
+
+h1 {
+    color: #FBBB18;
+    text-decoration: underline;
 }
