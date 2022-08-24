@@ -51,7 +51,7 @@ body {
     background-color: #DFE0DF;
 }
 
-    /* Styling the Intro section with the bio and selfie */
+    /* Styling the Intro section of the About Me page with the bio and selfie */
 
 .intro {
     display: grid;
@@ -124,6 +124,39 @@ h1 {
     
 }
 
+/* Styling the Contact Me page */
+
+.contactme {
+    display: grid;
+    grid: 5rem / auto;
+    margin: 5rem 1rem 0rem 15rem;
+}
+
+.work {
+    color: #512800;
+    font-size: 1.125rem;
+}
+
+.contactme h3 {
+    color: #FBBB18;
+    text-decoration: underline;
+    text-shadow: -.0225rem -.0825rem 0px rgba(0, 0, 0, .75);
+}
+
+.phone {
+    color: #512800;
+}
+
+.contacts ul {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+}
+
+.contacts img {
+    max-width: 6.25rem;
+    max-height: 6.25rem;
+}
 /* End Body CSS */
 
 /* Footer CSS */
