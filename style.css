@@ -80,11 +80,65 @@ h1 {
     line-height: 1.875rem;
     grid-column-start: 1;
     grid-row-start: 3;
-    
     font-size: 1.125rem;
 }
 
     /* Styling the interactive gallery */
+
+.row {
+    border: .125rem solid #512800;
+    border-radius: .5rem;
+}
+
+    /* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 22%;
+    padding: .8rem;
+  }
+  
+  /* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+.column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
 
 .gallery {
     display: grid;
@@ -92,7 +146,7 @@ h1 {
     max-height: 12.5rem;
     grid-template-rows: 3;
     justify-content: center;
-    margin: 1rem 1rem 0rem 17rem;
+    margin: 1rem 1rem 0rem 5rem;
     object-fit: contain;
 }
 

@@ -4,6 +4,7 @@
     <head>
         <title>About Me</title>
         <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="./script.js"></script>
     </head>
 
     <header>
@@ -29,13 +30,40 @@
         <div class="gallery">
             <h3>A Gallery to Describe Me</h3>
             <p>(click on an image to expand)</p>
-            <ul>
+
+            <div class="row">
+                <div class="column">
+                  <img src="./bird.jpg" alt="A bird fishing in Clear Creek" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="./citypark.jpg" alt="Denver City Park at sunset" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="./redrocks.jpg" alt="Red Rocks Amphitheater" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="./kayak.jpg" alt="kayaks on Chatfield Reservoir" onclick="myFunction(this);">
+                </div>
+            </div>
+
+            <div class="container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+              
+                <!-- Expanded image -->
+                <img id="expandedImg" style="width:100%">
+              
+                <!-- Image text -->
+                <div id="imgtext"></div>
+            </div>
+
+           <!-- <ul>
                 <li><img src="./bird.jpg" alt="A bird fishing in Clear Creek" /></li>
                 <li><img src="./citypark.jpg" alt="Denver City Park at sunset" /></li>
                 <li><img src="./redrocks.jpg" alt="Red Rocks Amphitheater" /></li>
                 <li><img src="./kayak.jpg" alt="kayaks on Chatfield Reservoir" /></li>
                 <li><img src="./camp.jpg" alt="a campsite at night" /></li>
-            </ul>
+            </ul> -->
         </div>
     </body>
 
