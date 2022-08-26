@@ -159,7 +159,56 @@ h1 {
 
 /* Styling the Resume page */
 
+body h2 {
+    margin-left: 15rem;
+    color: #FBBB18;
+    text-decoration: underline;
+    text-shadow: -.0225rem -.0825rem 0px rgba(0, 0, 0, .75);
+}
 
+.workbox {
+    margin-left: 15rem;
+    border: .125rem solid #512800;
+    border-radius: .5rem;
+    padding-left: 1rem;
+    width: 65%;
+}
+
+.workbox h3 {
+    color: #FBBB18;
+    text-decoration: underline;
+    text-shadow: -.0225rem -.0825rem 0px rgba(0, 0, 0, .75);
+}
+
+.workbox ul {
+    color: #512800;
+    font-size: 1.125rem;
+}
+
+.edubox {
+    display: grid;
+    margin-left: 15rem;
+    border: .125rem solid #512800;
+    border-radius: .5rem;
+    padding-left: 1rem;
+    width: 65%;
+}
+
+.edubox h3 {
+    color: #FBBB18;
+    text-decoration: underline;
+    text-shadow: -.0225rem -.0825rem 0px rgba(0, 0, 0, .75);
+}
+
+.edubox h4 {
+    color: #512800;
+    font-size: 1rem;
+}
+
+.edubox ul {
+    color: #512800;
+    font-size: .5rem;
+}
 
 /* Styling the Contact Me page */
 
