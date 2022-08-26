@@ -147,10 +147,19 @@ h1 {
     color: #512800;
 }
 
+.gallery {
+    
+}
+
 .contacts ul {
-    display: inline-flex;
+    display: flex;
     list-style: none;
     text-align: center;
+    justify-content: space-between;
+    width: 25%;
+    border: .125rem solid #512800;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
 }
 
 .contacts img {
